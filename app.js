@@ -21,7 +21,7 @@ const search = () => {
 		// image part
 		let iUrl = data.current.condition.icon;
 		console.log(iUrl);
-		let imgUrl = `pics/${iUrl.slice(35)}`;
+		let imgUrl = `Pics/${iUrl.slice(35)}`;
 		weatherImage.src = imgUrl;
 	});
 };
